@@ -29,14 +29,14 @@
             <ul class="menu">
                 <li><a href="#about">About</a></li>
                 <li><a href="./music.html">Music</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
     </nav>
 
     <div class="content">
         <div class="about">
             <div class="header-text">
-                <h1 class="introduction"> Hi, I'm <br><span class="mvce">Mvce</span></h1>
+                <h1 class="introduction"> Hi!, I'm <br><span class="mvce">Mvce</span></h1>
                 <p class="pronounced"> pronounced /meɪs/. </p>
             </div>
         </div>
@@ -156,9 +156,9 @@
         const inView = sectionTop < window.innerHeight && sectionTop >= 0;
         
         if (inView) {
-            section.classList.add('visible'); // Add class to fade in
+            section.classList.add('visible'); 
         } else {
-            section.classList.remove('visible'); // Remove class to reset
+            section.classList.remove('visible'); 
         }
         });
         };
